@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+#row-1,
+#row-2,
+#row-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 75px;
+    min-height: 75px;
+    width: 50vw;
+    height: 50vw;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.O,
+.X {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.O {
+    color: red;
+}
+
+.X {
+    color: blue;
+}
